@@ -16,9 +16,8 @@ This product is to be used as a starter template code for creating mobile applic
 #### Installing Android Studio
 
 Download and install Android Studio. While on Android Studio installation wizard, make sure the boxes next to all of the following items are checked:
-
-    * Android SDK
-    * Android SDK Platform
-    * Android Virtual Device
-    * If you are not already using Hyper-V: Performance (Intel ® HAXM) (See here for AMD or Hyper-V)
+ * Android SDK
+ * Android SDK Platform
+ * Android Virtual Device
+ * If you are not already using Hyper-V: Performance (Intel ® HAXM) (See here for AMD or Hyper-V)
 
