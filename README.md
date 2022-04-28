@@ -36,7 +36,7 @@ Next, select the "SDK Tools" tab and check the box next to "Show Package Details
 
 Finally, click "Apply" to download and install the Android SDK and related build tools.
 
-#### 3. 3. Configure The ANDROID_HOME Environment Variable
+#### 3. Configure The ANDROID_HOME Environment Variable
 
 The React Native tools require some environment variables to be set up in order to build apps with native code.
 
@@ -44,3 +44,15 @@ The React Native tools require some environment variables to be set up in order 
  2. Click on User Accounts, then click User Accounts again
  3. Click on Change my environment variables
  4. Click on New... to create a new ANDROID_HOME user variable that points to the path to your Android SDK:
+
+**The SDK is installed, by default, at the following location:**
+
+     %LOCALAPPDATA%\Android\Sdk
+
+You can find the actual location of the SDK in the Android Studio "Settings" dialog, under Appearance & Behavior → System Settings → Android SDK.
+
+**Open a new Command Prompt window to ensure the new environment variable is loaded before proceeding to the next step.**
+
+ 1. Open powershell
+ 2. Copy and paste Get-ChildItem -Path Env:\ into powershell
+ 3. Verify ANDROID_HOME has been added
