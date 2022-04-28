@@ -47,7 +47,7 @@ The React Native tools require some environment variables to be set up in order 
 
 **The SDK is installed, by default, at the following location:**
 
-     %LOCALAPPDATA%\Android\Sdk
+    %LOCALAPPDATA%\Android\Sdk
 
 You can find the actual location of the SDK in the Android Studio "Settings" dialog, under Appearance & Behavior → System Settings → Android SDK.
 
@@ -65,3 +65,7 @@ You can find the actual location of the SDK in the Android Studio "Settings" dia
  4. Select the Path variable.
  5. Click Edit.
  6. Click New and add the path to platform-tools to the list.
+
+**The default location for this folder is:**
+
+    %LOCALAPPDATA%\Android\Sdk\platform-tools
