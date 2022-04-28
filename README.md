@@ -38,9 +38,9 @@ Finally, click "Apply" to download and install the Android SDK and related build
 
 #### 3. 3. Configure The ANDROID_HOME Environment Variable
 
-he React Native tools require some environment variables to be set up in order to build apps with native code.
+The React Native tools require some environment variables to be set up in order to build apps with native code.
 
-1. Open the Windows Control Panel.
-2. Click on User Accounts, then click User Accounts again
-3. Click on Change my environment variables
-4. Click on New... to create a new ANDROID_HOME user variable that points to the path to your Android SDK:
+ 1. Open the Windows Control Panel.
+ 2. Click on User Accounts, then click User Accounts again
+ 3. Click on Change my environment variables
+ 4. Click on New... to create a new ANDROID_HOME user variable that points to the path to your Android SDK:
