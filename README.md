@@ -56,3 +56,12 @@ You can find the actual location of the SDK in the Android Studio "Settings" dia
  1. Open powershell
  2. Copy and paste Get-ChildItem -Path Env:\ into powershell
  3. Verify ANDROID_HOME has been added
+
+### 4. Add platform-tools to Path
+
+ 1. Open the Windows Control Panel.
+ 2. Click on User Accounts, then click User Accounts again
+ 3. Click on Change my environment variables
+ 4. Select the Path variable.
+ 5. Click Edit.
+ 6. Click New and add the path to platform-tools to the list.
