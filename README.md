@@ -76,7 +76,7 @@ To work with this boilerplate, you have to download it. So follow these instruct
 
 ## 3. Boilerplate Features
 
-This product provides required and relevant Folder Structure, Creating Re-usable Components, Store and Redux, Texing, Navigation, React-Native code templates and so on to the developers.
+This product provides required and relevant Folder Structure, Creating Re-usable Components, Store and Redux, Testing, Navigation, React-Native code templates and so on to the developers.
 
 ### 3.1 Folder Structure
 
