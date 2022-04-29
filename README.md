@@ -5,11 +5,22 @@ This product is to be used as a starter template code for creating mobile applic
 ## 1. Environment Setup for React-Native
 
  This boilerplate is done by using React Native CLI. You will need Node, the React Native command line interface, a JDK, and Android Studio or Xcode to get started.
+ 
  You can refer React Native official documentation for more information: https://reactnative.dev/docs/environment-setup
 
 ### 1.1 Installing Node, JDK
 
-/*********************************************/
+#### For Windows
+
+We recommend installing Node via Chocolatey, a popular package manager for Windows.
+
+ https://chocolatey.org/
+
+It is recommended to use an LTS version of Node. If you want to be able to switch between different versions, you might want to install Node via nvm-windows, a Node version manager for Windows.
+
+React Native also requires Java SE Development Kit (JDK), which can be installed using Chocolatey as well.
+
+Open an Administrator Command Prompt (right click Command Prompt and select "Run as Administrator"), then run the following command:
 
 ### 1.2 Android development environment
 
