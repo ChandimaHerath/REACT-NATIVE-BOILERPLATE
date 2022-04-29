@@ -76,15 +76,15 @@ To work with this boilerplate, you have to download it. So follow these instruct
 
 ### 2.1 Cloning the Repository
 
-    **http Method**
+   **http Method**
     git clone https://dilankanirmal@bitbucket.org/paladinanalytics/react-native.git
     
-    **SSH Method**
+   **SSH Method**
     git clone git@bitbucket.org:paladinanalytics/react-native.git
     
 ### 2.2 Install Packages
 
-    **NPM Install**
+   **NPM Install**
     npm install
 
 ## 3. Boilerplate Features
