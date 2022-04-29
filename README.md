@@ -62,3 +62,11 @@ If you have any other testings you can add them by following the structure that 
 ### 2.5 Navigation  
 
 /**************************************************************/
+
+### 2.5 Module Creating 
+
+For easy understanding and maintainance, we have devided the project in to modules. As a start we have created two modules as "Auth Module" and "App Module".
+
+   **Location : react-native/src/modules**
+
+If you have any other modules you can add them by following the structure that we have used there.
