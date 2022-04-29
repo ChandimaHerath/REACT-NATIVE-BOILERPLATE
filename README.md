@@ -8,7 +8,7 @@ This product is to be used as a starter template code for creating mobile applic
  
  You can refer [React Native Official Documentation](https://reactnative.dev/docs/environment-setup) for more information: 
 
-### 1.1 Installing Node, JDK
+### 1.1.1 Installing Node, JDK (Android Development)
 
 #### For Windows
 
@@ -48,7 +48,24 @@ The Zulu OpenJDK distribution offers JDKs for **both Intel and M1 Macs.** This w
 
 If you have already installed JDK on your system, make sure it is JDK 11 or newer.
 
-#### For macOS with iOS
+### 1.1.1 For macOS with iOS (iOS Development)
+
+##### Installing dependencies
+
+You will need Node, Watchman, the React Native command line interface, Xcode and CocoaPods.
+
+While you can use any editor of your choice to develop your app, you will need to install Xcode in order to set up the necessary tooling to build your React Native app for iOS.
+
+##### Node & Watchman
+
+We recommend installing Node and Watchman using [Homebrew](http://brew.sh/). Run the following commands in a Terminal after installing Homebrew:
+
+ brew install node
+ brew install watchman
+
+If you have already installed Node on your system, make sure it is Node 14 or newer.
+
+[Watchman](https://facebook.github.io/watchman) is a tool by Facebook for watching changes in the filesystem. It is highly recommended you install it for better performance.
 
 ### 1.2 Android development environment
 
