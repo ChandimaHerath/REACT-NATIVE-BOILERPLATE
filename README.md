@@ -6,7 +6,7 @@ This product is to be used as a starter template code for creating mobile applic
 
  This boilerplate is done by using React Native CLI. You will need Node, the React Native command line interface, a JDK, and Android Studio or Xcode to get started.
  
- You can refer React Native official documentation for more information: https://reactnative.dev/docs/environment-setup
+ You can refer [React Native Official Documentation](https://reactnative.dev/docs/environment-setup) for more information: 
 
 ### 1.1 Installing Node, JDK
 
