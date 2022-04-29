@@ -72,8 +72,10 @@ You can find the actual location of the SDK in the Android Studio "Settings" dia
 
 ## 2. Boilerplate Setup
 
-/**************************************************************/
+To work with this boilerplate, you have to download it. So follow these instructions to setup the boilerplate for customization.
 
 ## 3. Boilerplate Features
+
+This product provides required and relevant Folder Structure, Creating Re-usable Components, Store and Redux, Texing, Navigation, React-Native code templates and so on to the developers.
 
 ### 3.1 Folder Structure
