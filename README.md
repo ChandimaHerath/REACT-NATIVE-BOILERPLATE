@@ -8,7 +8,7 @@ This product is to be used as a starter template code for creating mobile applic
  
  You can refer [React Native Official Documentation](https://reactnative.dev/docs/environment-setup) for more information: 
 
-### 1.1.1 Installing Node, JDK (Android Development)
+### 1.1.1 Installing Node, JDK (Only for Android Development in macOS and Windows)
 
 #### For Windows
 
@@ -48,7 +48,7 @@ The Zulu OpenJDK distribution offers JDKs for **both Intel and M1 Macs.** This w
 
 If you have already installed JDK on your system, make sure it is JDK 11 or newer.
 
-### 1.1.1 For macOS with iOS (iOS Development)
+### 1.1.2 For macOS with iOS (Only for iOS Development in macOS)
 
 ##### Installing dependencies
 
