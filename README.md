@@ -119,9 +119,9 @@ The React Native tools require some environment variables to be set up in order 
 
 Add the following lines to your $HOME/.bash_profile or $HOME/.bashrc (if you are using zsh then ~/.zprofile or ~/.zshrc) config file:
 
- export ANDROID_SDK_ROOT=$HOME/Library/Android/sdk
- export PATH=$PATH:$ANDROID_SDK_ROOT/emulator
- export PATH=$PATH:$ANDROID_SDK_ROOT/platform-tools
+    export ANDROID_SDK_ROOT=$HOME/Library/Android/sdk
+    export PATH=$PATH:$ANDROID_SDK_ROOT/emulator
+    export PATH=$PATH:$ANDROID_SDK_ROOT/platform-tools
  
 Type source $HOME/.bash_profile for bash or source $HOME/.zprofile to load the config into your current shell. Verify that ANDROID_SDK_ROOT has been set by running echo $ANDROID_SDK_ROOT and the appropriate directories have been added to your path by running echo $PATH.
 
@@ -159,7 +159,7 @@ To install a simulator, open Xcode > Preferences... and select the Components ta
 
 Using the default Ruby install will require you to use sudo when installing gems. (This is only an issue for the duration of the gem installation, though.)
 
- sudo gem install cocoapods
+    sudo gem install cocoapods
 
 For more information, please visit [CocoaPods Getting Started guide](https://guides.cocoapods.org/using/getting-started.html).
 
