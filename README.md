@@ -94,11 +94,11 @@ To work with this boilerplate, you have to download it. So follow these instruct
 
    **Android**
    
-   npx react-native run-android
+    npx react-native run-android
    
    **IOS**
    
-   react-native run-ios
+    react-native run-ios
 
 ## 3. Boilerplate Features
 
