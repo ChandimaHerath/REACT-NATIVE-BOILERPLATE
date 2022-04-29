@@ -71,7 +71,7 @@ If you have already installed Node on your system, make sure it is Node 14 or ne
 
 #### 1.2.1. Installing Android Studio
 
-Download and install Android Studio. While on Android Studio installation wizard, make sure the boxes next to all of the following items are checked:
+[Download and install Android Studio](https://developer.android.com/studio/index.html). While on Android Studio installation wizard, make sure the boxes next to all of the following items are checked:
  * Android SDK
  * Android SDK Platform
  * Android Virtual Device
