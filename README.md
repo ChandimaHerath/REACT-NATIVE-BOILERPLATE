@@ -125,7 +125,7 @@ Add the following lines to your $HOME/.bash_profile or $HOME/.bashrc (if you are
  
 Type source $HOME/.bash_profile for bash or source $HOME/.zprofile to load the config into your current shell. Verify that ANDROID_SDK_ROOT has been set by running echo $ANDROID_SDK_ROOT and the appropriate directories have been added to your path by running echo $PATH.
 
-### 1.2.4. Add platform-tools to Path (Only for Windos)
+#### 1.2.4. Add platform-tools to Path (Only for Windos)
 
  1. Open the Windows Control Panel.
  2. Click on User Accounts, then click User Accounts again
@@ -195,6 +195,6 @@ For the testing purposes, we have created some testings such as, "Sign Up Testin
    
 If you have any other testings you can add them by following the structure that we have used there.
 
-### 3.5 Navigation 
+### 3.5 Navigation  
 
 /**************************************************************/
