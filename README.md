@@ -21,6 +21,32 @@ React Native also requires [Java SE Development Kit (JDK)](https://openjdk.java.
 Open an Administrator Command Prompt (right click Command Prompt and select "Run as Administrator"), then run the following command:
 
     choco install -y nodejs-lts openjdk11
+    
+#### For macOS with Android
+
+##### Installing dependencies
+
+You will need Node, Watchman, the React Native command line interface, a JDK, and Android Studio.
+
+While you can use any editor of your choice to develop your app, you will need to install Android Studio in order to set up the necessary tooling to build your React Native app for Android.
+
+##### Node & Watchman
+
+We recommend installing Node and Watchman using [Homebrew](http://brew.sh/). Run the following commands in a Terminal after installing Homebrew:
+
+ brew install node
+ brew install watchman
+ 
+##### Java Development Kit
+
+We recommend installing the OpenJDK distribution called Azul Zulu using [Homebrew](http://brew.sh/). Run the following commands in a Terminal after installing Homebrew:
+
+ brew tap homebrew/cask-versions
+ brew install --cask zulu11
+
+The Zulu OpenJDK distribution offers JDKs for **both Intel and M1 Macs.** This will make sure your build are faster on M1 Macs compared to using an Intel-based JDK.
+
+If you have already installed JDK on your system, make sure it is JDK 11 or newer.
 
 ### 1.2 Android development environment
 
