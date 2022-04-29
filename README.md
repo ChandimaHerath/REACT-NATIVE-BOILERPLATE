@@ -2,18 +2,18 @@
 
 This product is to be used as a starter template code for creating mobile applications for both android and ios devices since the technology used to build the project is React Native. Developers can easily start developing processes upon the supplied code base with selected dependencies in the project and the folder structures created. Using this product the developers can start their project in a short period of time and easily.
 
-## Environment Setup
+## 1. Environment Setup
 
  This boilerplate is done by using React Native CLI. You will need Node, the React Native command line interface, a JDK, and Android Studio or Xcode to get started.
  You can refer React Native official documentation for more information: https://reactnative.dev/docs/environment-setup
 
-### Installing Node, JDK
+### 1.1 Installing Node, JDK
 
 /*********************************************/
 
-### Android development environment
+### 1.2 Android development environment
 
-#### 1. Installing Android Studio
+#### 1.2.1. Installing Android Studio
 
 Download and install Android Studio. While on Android Studio installation wizard, make sure the boxes next to all of the following items are checked:
  * Android SDK
@@ -21,7 +21,7 @@ Download and install Android Studio. While on Android Studio installation wizard
  * Android Virtual Device
  * If you are not already using Hyper-V: Performance (Intel ® HAXM) (See here for AMD or Hyper-V)
 
-#### 2. Install The Android SDK
+#### 1.2.2. Install The Android SDK
 
 Android Studio installs the latest Android SDK by default. Building a React Native app with native code, however, requires the Android 11 (R) SDK in particular. Additional Android SDKs can be installed through the SDK Manager in Android Studio.
 
@@ -36,7 +36,7 @@ Next, select the "SDK Tools" tab and check the box next to "Show Package Details
 
 Finally, click "Apply" to download and install the Android SDK and related build tools.
 
-#### 3. Configure The ANDROID_HOME Environment Variable
+#### 1.2.3. Configure The ANDROID_HOME Environment Variable
 
 The React Native tools require some environment variables to be set up in order to build apps with native code.
 
@@ -57,7 +57,7 @@ You can find the actual location of the SDK in the Android Studio "Settings" dia
  2. Copy and paste Get-ChildItem -Path Env:\ into powershell
  3. Verify ANDROID_HOME has been added
 
-### 4. Add platform-tools to Path
+### 1.2.4. Add platform-tools to Path
 
  1. Open the Windows Control Panel.
  2. Click on User Accounts, then click User Accounts again
