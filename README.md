@@ -98,7 +98,7 @@ To work with this boilerplate, you have to download it. So follow these instruct
    
    **IOS**
    
-    react-native run-ios npx
+    npx react-native run-ios
 
 ## 3. Boilerplate Features
 
