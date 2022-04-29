@@ -74,6 +74,14 @@ You can find the actual location of the SDK in the Android Studio "Settings" dia
 
 To work with this boilerplate, you have to download it. So follow these instructions to setup the boilerplate for customization.
 
+### 2.3 Cloning the Repository
+
+    **http Method**
+    git clone https://dilankanirmal@bitbucket.org/paladinanalytics/react-native.git
+    
+    **SSH Method**
+    git clone git@bitbucket.org:paladinanalytics/react-native.git
+
 ## 3. Boilerplate Features
 
 This product provides required and relevant Folder Structure, Creating Re-usable Components, Store and Redux, Testing, Navigation, React-Native code templates and so on to the developers.
