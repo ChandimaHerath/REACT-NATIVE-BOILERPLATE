@@ -79,3 +79,14 @@ To work with this boilerplate, you have to download it. So follow these instruct
 This product provides required and relevant Folder Structure, Creating Re-usable Components, Store and Redux, Texing, Navigation, React-Native code templates and so on to the developers.
 
 ### 3.1 Folder Structure
+
+/**********************************************************/
+
+### 3.2 Re-usable Components
+
+There are two re-usable components that can be used in entire project, "Custom Button Components" and "Custom Input Component".
+     Location : react-native/src/components/form
+     
+If you have any other re-usable components you can add them by following the structure that we have used there. 
+
+
