@@ -67,7 +67,7 @@ If you have already installed Node on your system, make sure it is Node 14 or ne
 
 [Watchman](https://facebook.github.io/watchman) is a tool by Facebook for watching changes in the filesystem. It is highly recommended you install it for better performance.
 
-### 1.2 Android development environment 
+### 1.2 Android development environment (Only for Android Development in macOS and Windows)
 
 #### 1.2.1. Installing Android Studio
 
@@ -137,7 +137,32 @@ Type source $HOME/.bash_profile for bash or source $HOME/.zprofile to load the c
 **The default location for this folder is:**
 
     %LOCALAPPDATA%\Android\Sdk\platform-tools
-   
+
+### 1.3. iOS Development (Only for iOS development in macOS)
+
+#### 1.3.1 Xcode
+
+The easiest way to install Xcode is via the [Mac App Store](https://itunes.apple.com/us/app/xcode/id497799835?mt=12). Installing Xcode will also install the iOS Simulator and all the necessary tools to build your iOS app.
+
+If you have already installed Xcode on your system, make sure it is version 10 or newer.
+
+#### 1.3.2. Command Line Tools
+You will also need to install the Xcode Command Line Tools. Open Xcode, then choose "Preferences..." from the Xcode menu. Go to the Locations panel and install the tools by selecting the most recent version in the Command Line Tools dropdown.
+
+#### 1.3.3. Installing an iOS Simulator in Xcode
+
+To install a simulator, open Xcode > Preferences... and select the Components tab. Select a simulator with the corresponding version of iOS you wish to use.
+
+#### 1.3.4. CocoaPods
+
+[CocoaPods](https://cocoapods.org/) is built with Ruby and it will be installable with the default Ruby available on macOS. You can use a Ruby Version manager, however we recommend that you use the standard Ruby available on macOS unless you know what you're doing.
+
+Using the default Ruby install will require you to use sudo when installing gems. (This is only an issue for the duration of the gem installation, though.)
+
+ sudo gem install cocoapods
+
+For more information, please visit [CocoaPods Getting Started guide](https://guides.cocoapods.org/using/getting-started.html).
+
 ## 2. Boilerplate Setup
 
 To work with this boilerplate, you have to download it. So follow these instructions to setup the boilerplate for customization.
