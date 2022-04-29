@@ -124,6 +124,8 @@ If you have any other re-usable components you can add them by following the str
 For the testing purposes, we have created some testings such as, "Sign Up Testing", "Sign In Testing", "Forgot Pasword Testing", "Render Componant Testing", and so on.
     
    **Location : react-native/__tests__**
+   
+If you have any other testings you can add them by following the structure that we have used there.
 
 ### 3.5 Navigation 
 
