@@ -89,6 +89,16 @@ To work with this boilerplate, you have to download it. So follow these instruct
    **NPM Install**
    
     npm install
+    
+### 2.3 Run Project
+
+   **Android**
+   
+   npx react-native run-android
+   
+   **IOS**
+   
+   react-native run-ios
 
 ## 3. Boilerplate Features
 
