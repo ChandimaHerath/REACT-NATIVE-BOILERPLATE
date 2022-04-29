@@ -48,6 +48,8 @@ The Zulu OpenJDK distribution offers JDKs for **both Intel and M1 Macs.** This w
 
 If you have already installed JDK on your system, make sure it is JDK 11 or newer.
 
+#### For macOS with iOS
+
 ### 1.2 Android development environment
 
 #### 1.2.1. Installing Android Studio
