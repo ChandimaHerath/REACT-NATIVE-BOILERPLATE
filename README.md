@@ -92,7 +92,7 @@ Next, select the "SDK Tools" tab and check the box next to "Show Package Details
 
 Finally, click "Apply" to download and install the Android SDK and related build tools.
 
-#### 1.2.3. Configure The ANDROID_HOME Environment Variable
+#### 1.2.3.1. Configure The ANDROID_HOME Environment Variable (Only for windows)
 
 The React Native tools require some environment variables to be set up in order to build apps with native code.
 
@@ -125,6 +125,18 @@ You can find the actual location of the SDK in the Android Studio "Settings" dia
 **The default location for this folder is:**
 
     %LOCALAPPDATA%\Android\Sdk\platform-tools
+    
+#### 1.2.3.1. Configure the ANDROID_SDK_ROOT environment variable (only for macOS)
+
+The React Native tools require some environment variables to be set up in order to build apps with native code.
+
+Add the following lines to your $HOME/.bash_profile or $HOME/.bashrc (if you are using zsh then ~/.zprofile or ~/.zshrc) config file:
+
+ export ANDROID_SDK_ROOT=$HOME/Library/Android/sdk
+ export PATH=$PATH:$ANDROID_SDK_ROOT/emulator
+ export PATH=$PATH:$ANDROID_SDK_ROOT/platform-tools
+ 
+Type source $HOME/.bash_profile for bash or source $HOME/.zprofile to load the config into your current shell. Verify that ANDROID_SDK_ROOT has been set by running echo $ANDROID_SDK_ROOT and the appropriate directories have been added to your path by running echo $PATH.
 
 ## 2. Boilerplate Setup
 
