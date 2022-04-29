@@ -84,8 +84,8 @@ To work with this boilerplate, you have to download it. So follow these instruct
     
 ### 2.2 Install Packages
 
-   **NPM Install**
-   npm install
+    **NPM Install**
+    npm install
 
 ## 3. Boilerplate Features
 
