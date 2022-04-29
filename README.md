@@ -34,8 +34,8 @@ While you can use any editor of your choice to develop your app, you will need t
 
 We recommend installing Node and Watchman using [Homebrew](http://brew.sh/). Run the following commands in a Terminal after installing Homebrew:
 
- brew install node
- brew install watchman
+    brew install node
+    brew install watchman
  
 ###### Java Development Kit
 
