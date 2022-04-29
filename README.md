@@ -30,14 +30,14 @@ You will need Node, Watchman, the React Native command line interface, a JDK, an
 
 While you can use any editor of your choice to develop your app, you will need to install Android Studio in order to set up the necessary tooling to build your React Native app for Android.
 
-##### Node & Watchman
+###### Node & Watchman
 
 We recommend installing Node and Watchman using [Homebrew](http://brew.sh/). Run the following commands in a Terminal after installing Homebrew:
 
  brew install node
  brew install watchman
  
-##### Java Development Kit
+###### Java Development Kit
 
 We recommend installing the OpenJDK distribution called Azul Zulu using [Homebrew](http://brew.sh/). Run the following commands in a Terminal after installing Homebrew:
 
@@ -50,7 +50,7 @@ If you have already installed JDK on your system, make sure it is JDK 11 or newe
 
 ### 1.1.2 For macOS with iOS (Only for iOS Development in macOS)
 
-##### Installing dependencies
+#### Installing dependencies
 
 You will need Node, Watchman, the React Native command line interface, Xcode and CocoaPods.
 
@@ -67,7 +67,7 @@ If you have already installed Node on your system, make sure it is Node 14 or ne
 
 [Watchman](https://facebook.github.io/watchman) is a tool by Facebook for watching changes in the filesystem. It is highly recommended you install it for better performance.
 
-### 1.2 Android development environment
+### 1.2 Android development environment 
 
 #### 1.2.1. Installing Android Studio
 
