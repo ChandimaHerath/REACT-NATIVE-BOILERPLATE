@@ -89,4 +89,14 @@ There are two re-usable components that can be used in entire project, "Custom B
      
 If you have any other re-usable components you can add them by following the structure that we have used there. 
 
+### 3.3 Store and Redux
 
+/**************************************************************/
+
+### 3.4 Testing 
+
+/**************************************************************/
+
+### 3.5 Navigation 
+
+/**************************************************************/
