@@ -73,3 +73,7 @@ You can find the actual location of the SDK in the Android Studio "Settings" dia
 ## 2. Boilerplate Setup
 
 /**************************************************************/
+
+## 3. Boilerplate Features
+
+### 3.1 Folder Structure
