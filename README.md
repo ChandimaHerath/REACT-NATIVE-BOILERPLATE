@@ -85,7 +85,7 @@ This product provides required and relevant Folder Structure, Creating Re-usable
 ### 3.2 Re-usable Components
 
 There are two re-usable components that can be used in entire project, "Custom Button Components" and "Custom Input Component".
-     Location : react-native/src/components/form
+     **Location : react-native/src/components/form
      
 If you have any other re-usable components you can add them by following the structure that we have used there. 
 
