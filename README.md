@@ -12,13 +12,11 @@ This product is to be used as a starter template code for creating mobile applic
 
 #### For Windows
 
-We recommend installing Node via Chocolatey, a popular package manager for Windows.
+We recommend installing Node via [Chocolatey](https://chocolatey.org/), a popular package manager for Windows.
 
- https://chocolatey.org/
+It is recommended to use an LTS version of Node. If you want to be able to switch between different versions, you might want to install Node via [nvm-windows](https://github.com/coreybutler/nvm-windows), a Node version manager for Windows.
 
-It is recommended to use an LTS version of Node. If you want to be able to switch between different versions, you might want to install Node via nvm-windows, a Node version manager for Windows.
-
-React Native also requires Java SE Development Kit (JDK), which can be installed using Chocolatey as well.
+React Native also requires [Java SE Development Kit (JDK)](https://openjdk.java.net/projects/jdk/11/), which can be installed using Chocolatey as well.
 
 Open an Administrator Command Prompt (right click Command Prompt and select "Run as Administrator"), then run the following command:
 
