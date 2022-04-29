@@ -20,6 +20,8 @@ React Native also requires [Java SE Development Kit (JDK)](https://openjdk.java.
 
 Open an Administrator Command Prompt (right click Command Prompt and select "Run as Administrator"), then run the following command:
 
+    choco install -y nodejs-lts openjdk11
+
 ### 1.2 Android development environment
 
 #### 1.2.1. Installing Android Studio
