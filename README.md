@@ -121,7 +121,7 @@ If you have any other re-usable components you can add them by following the str
 
 ### 3.4 Testing 
 
-For the testing purposes, we have created some testings such as, "Sign Up Testing", "Sign In Testing", "Forgot Pasword Testing", "Render Componant Testing", and so on.
+For the testing purposes, we have created some testings such as, "Sign Up Testing", "Sign In Testing", "Forgot Pasword Testing", "Render Component Testing", and so on.
     
    **Location : react-native/__tests__**
    
