@@ -34,11 +34,11 @@ To work with this boilerplate, you have to download it. So follow these instruct
 
 ## 2. Boilerplate Features
 
-This product provides required and relevant Folder Structure, Creating Re-usable Components, Store and Redux, Testing, Navigation, React-Native code templates and so on to the developers.
+This product provides required and relevant Folder Structure, Creating Re-usable Components, Storage and Redux, Testing, Navigation, React-Native code templates and so on to the developers.
 
 ### 2.1 Folder Structure
 
-/**********************************************************/
+The folders are arranged in a  moduler approach including the essential files inside each module, which increase the maintainability.
 
 ### 2.2 Re-usable Components
 
@@ -47,11 +47,16 @@ There are two re-usable components that can be used in entire project, "Custom B
      
 If you have any other re-usable components you can add them by following the structure that we have used there. 
 
-### 2.3 Store and Redux
+### 2.3 State Management
 
-/**************************************************************/
+State management done using the Redux library. Example redux components (actions, reducers, store, root reducer, types) are already included for the reference of the developers in each module. 
 
-### 2.4 Testing 
+### 2.4 Storage
+
+A react native async storage is already build for persisting data.
+  **Location : src/utils/storage.ts**
+
+### 2.5 Testing 
 
 For the testing purposes, we have created some testings such as, "Sign Up Testing", "Sign In Testing", "Forgot Pasword Testing", "Render Component Testing", and so on.
     
@@ -59,11 +64,11 @@ For the testing purposes, we have created some testings such as, "Sign Up Testin
    
 If you have any other testings you can add them by following the structure that we have used there.
 
-### 2.5 Navigation  
+### 2.6 Navigation  
 
 /**************************************************************/
 
-### 2.6 Module Creating 
+### 2.7 Module Creating 
 
 For easy understanding and maintainance, we have devided the project in to modules. As a start we have created two modules as "Auth Module" and "App Module".
 
@@ -71,6 +76,8 @@ For easy understanding and maintainance, we have devided the project in to modul
 
 If you have any other modules you can add them by following the structure that we have used there.
 
-### 2.7 http Class
+### 2.8 http Class
 
-/*********************************************/
+An httpClass is build herewhich contains the http methods which can be used as reusable functions. Interceptors are also incuded here.
+
+   **Location : src/utils/httpClass.ts**
